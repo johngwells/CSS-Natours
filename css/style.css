@@ -55,6 +55,10 @@ body {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
+
+  /* Used for keyframes when its not working correctly
+  in certain browsers */
+  backface-visibility: hidden;
 }
 
 .heading-primary-main {
